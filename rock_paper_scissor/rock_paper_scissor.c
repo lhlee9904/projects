@@ -87,7 +87,7 @@ int game(char choice){
 
 //Detrmine the result of the game
     if (player_num == cpu_num){
-        printf("愛子でしょ、また加入して下さい");
+        printf("相子でしょ、また加入して下さい");
         scanf(" %c", &choice);
         game(choice);
         return -1;
